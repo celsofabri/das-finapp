@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinApp</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_subtitle">Gerencie suas finanças</string>
+    <string name="btn_cadastro">Cadastrar Transação</string>
+    <string name="btn_extrato">Ver Extrato</string>
+    <string name="btn_sair">Sair</string>
+    
+    <!-- Cadastro -->
+    <string name="cadastro_title">Nova Transação</string>
+    <string name="tipo_label">Tipo de Transação</string>
+    <string name="tipo_debito">Débito</string>
+    <string name="tipo_credito">Crédito</string>
+    <string name="descricao_label">Descrição</string>
+    <string name="descricao_hint">Ex: Lazer, Moradia, Salário</string>
+    <string name="valor_label">Valor (R$)</string>
+    <string name="valor_hint">0.00</string>
+    <string name="btn_salvar">Salvar</string>
+    
+    <!-- Extrato -->
+    <string name="extrato_title">Extrato</string>
+    <string name="extrato_empty">Nenhuma transação cadastrada</string>
+    
+    <!-- Mensagens -->
+    <string name="msg_sucesso">Transação salva com sucesso!</string>
+    <string name="msg_erro_descricao">Por favor, informe uma descrição</string>
+    <string name="msg_erro_valor">Por favor, informe um valor válido</string>
+</resources>
