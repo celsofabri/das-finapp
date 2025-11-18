@@ -354,7 +354,7 @@ das-finapp/
 Este projeto foi desenvolvido por:
 
 - **Celso** - [GitHub](https://github.com/celsofabri)
-- **Isabelle**
+- **Isabelle** - [GitHub](https://github.com/isabellecassiano)
 - **Rodrigo**
 
 ## 📝 Notas de Desenvolvimento
