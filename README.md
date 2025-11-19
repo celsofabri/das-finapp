@@ -375,18 +375,6 @@ Este projeto foi desenvolvido por:
    - Mantido para compatibilidade com requisitos do projeto
    - Suporta 99%+ dos dispositivos Android ativos
 
-### Melhorias Futuras
-
-- [ ] Persistência de dados com Room Database
-- [ ] Edição e exclusão de transações
-- [ ] Filtros e busca no extrato
-- [ ] Gráficos e relatórios
-- [ ] Categorização de transações
-- [ ] Exportação de dados (CSV, PDF)
-- [ ] Backup e sincronização na nuvem
-- [ ] Modo escuro
-- [ ] Suporte a múltiplas moedas
-
 ## 🔗 Links Úteis
 
 - **Repositório**: https://github.com/celsofabri/das-finapp

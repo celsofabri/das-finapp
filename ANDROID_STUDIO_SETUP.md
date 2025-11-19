@@ -146,7 +146,7 @@ source ~/.bash_profile  # ou ~/.zshrc
    - Valor: `C:\Users\SeuUsuario\AppData\Local\Android\Sdk`
 4. Edite a variável `Path` e adicione:
    - `%ANDROID_HOME%\platform-tools`
-   - `%ANDROID_HOME%\tools`
+   - `%ANDROID_HOME%\build-tools`
 
 ## Configuração do AVD (Emulador)
 
