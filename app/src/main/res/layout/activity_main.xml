@@ -33,41 +33,49 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="8dp" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnCadastro"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/btn_cadastro"
-        android:textSize="18sp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#6BE96F"
         android:padding="16dp"
-        app:layout_constraintTop_toBottomOf="@id/tvSubtitle"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/btn_cadastro"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="64dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSubtitle" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnExtrato"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/btn_extrato"
-        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#5B70D7"
         android:padding="16dp"
-        app:layout_constraintTop_toBottomOf="@id/btnCadastro"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/btn_extrato"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCadastro" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSair"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/btn_sair"
-        android:textSize="18sp"
-        android:padding="16dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="@color/colorError"
-        app:layout_constraintTop_toBottomOf="@id/btnExtrato"
-        app:layout_constraintStart_toStartOf="parent"
+        android:padding="16dp"
+        android:text="@string/btn_sair"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnExtrato" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
